@@ -6,12 +6,16 @@
   <body>
     <h1>Question</h1>
     <form method="POST">
-      <input name="add_box" id="id_new_question" placeholder="Enter your own question"/>
+      {{ add_form }}
+      <p><input type="submit" class="btn btn-primary" value="Submit"></p>
       {% csrf_token %}
     </form>
+    <a href="{% url 'quiz:start' %}">Start Quiz!</a>
 
     <table id="id_list_table">
-      <tr><td>{{ new_question_text }}</td></tr>
+      <tr>
+        <td>{{ new_question }}</td>
+      </tr>
     </table>
   </body>
 </html>

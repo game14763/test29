@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import unittest
 
 class NewVisitorTest(unittest.TestCase):
-  
+
   def setUp(self):
     self.browser = webdriver.Firefox()
     self.browser.implicitly_wait(3)
@@ -26,20 +26,26 @@ class NewVisitorTest(unittest.TestCase):
             inputbox.get_attribute('placeholder'),
             'Enter your own question'
     )
+
     # He types in "Is it raining today?"
     inputbox.send_keys('Is it raining today?')
+
+    # He tick Yes for the answer
+    yes_answer = self.browser.find_element_by_id('id_yes_answer')
+    yes_answer.click()
+
+    import time
+    time.sleep(3)
 
     # He hit enter, the page update
     inputbox.send_keys(Keys.ENTER)
 
-    import time
-    time.sleep(10)
+    #table = self.browser.find_element_by_id('id_list_table')
+    #rows = table.find_elements_by_tag_name('tr')
+    #self.assertTrue(
+    #    any(row.text == 'Is it raining today?' for row in rows)
+    #)
 
-    table = self.browser.find_element_by_id('id_list_table')
-    rows = table.find_elements_by_tag_name('tr')
-    self.assertTrue(
-        any(row.text == '1:Is it raining today?' for row in rows)
-    )
     # To be continue
     self.fail('Finish test')
 
