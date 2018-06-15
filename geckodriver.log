@@ -462,3 +462,1132 @@ _onJSONObjectReady/<()@transport.js:500
 1528773693380	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 24375, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-SqrJ_m/firefox-60.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 24375, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-SqrJ_m/firefox-60.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528891999015	geckodriver	INFO	geckodriver 0.19.1
+1528891999077	geckodriver	INFO	Listening on 127.0.0.1:50457
+1528892000485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HPp3LVvve53S"
+1528892011400	Marionette	INFO	Listening on port 40291
+1528892011462	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 2095, Chrome_ChildThread] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 2095, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 2095, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528892055085	geckodriver	INFO	geckodriver 0.19.1
+1528892055093	geckodriver	INFO	Listening on 127.0.0.1:39925
+1528892056550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dgjixn81dSOU"
+1528892062135	Marionette	INFO	Listening on port 42899
+1528892062186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528892065943	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 2293, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 2293, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528896675176	geckodriver	INFO	geckodriver 0.19.1
+1528896675183	geckodriver	INFO	Listening on 127.0.0.1:51649
+1528896676615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.hjrb66mkkEFX"
+1528896681823	Marionette	INFO	Listening on port 38127
+1528896681844	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3676, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 3676, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528896725561	geckodriver	INFO	geckodriver 0.19.1
+1528896725569	geckodriver	INFO	Listening on 127.0.0.1:42487
+1528896727007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Q7Py8200xi0J"
+1528896731502	Marionette	INFO	Listening on port 36755
+1528896731546	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3863, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528897063733	geckodriver	INFO	geckodriver 0.19.1
+1528897063741	geckodriver	INFO	Listening on 127.0.0.1:38225
+1528897065198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0ftkWQNixqw3"
+1528897070205	Marionette	INFO	Listening on port 43271
+1528897070240	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4226, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4226, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528897314372	geckodriver	INFO	geckodriver 0.19.1
+1528897314380	geckodriver	INFO	Listening on 127.0.0.1:48371
+1528897315814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.r2CBU33h5wzd"
+1528897320380	Marionette	INFO	Listening on port 33391
+1528897320441	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4495, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528897474217	geckodriver	INFO	geckodriver 0.19.1
+1528897474224	geckodriver	INFO	Listening on 127.0.0.1:59541
+1528897475670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8jv4sICkKf4P"
+1528897480067	Marionette	INFO	Listening on port 34043
+1528897480099	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528897484130	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 4745, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528897517449	geckodriver	INFO	geckodriver 0.19.1
+1528897517456	geckodriver	INFO	Listening on 127.0.0.1:36097
+1528897518880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vpMdUxLulUeM"
+1528897523773	Marionette	INFO	Listening on port 40209
+1528897523811	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4940, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4940, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528897823994	geckodriver	INFO	geckodriver 0.19.1
+1528897824001	geckodriver	INFO	Listening on 127.0.0.1:40521
+1528897825469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KfE1xxCaitzL"
+1528897830546	Marionette	INFO	Listening on port 34119
+1528897830604	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5294, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5294, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528898146485	geckodriver	INFO	geckodriver 0.19.1
+1528898146493	geckodriver	INFO	Listening on 127.0.0.1:42587
+1528898147966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4nZxeIEbzhSY"
+1528898153567	Marionette	INFO	Listening on port 38305
+1528898153601	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5557, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5557, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528899134229	geckodriver	INFO	geckodriver 0.19.1
+1528899134236	geckodriver	INFO	Listening on 127.0.0.1:47581
+1528899135671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.cWXrwgiKOlXf"
+1528899140279	Marionette	INFO	Listening on port 43711
+1528899140313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528899142253	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 5885, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5885, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528899164487	geckodriver	INFO	geckodriver 0.19.1
+1528899164494	geckodriver	INFO	Listening on 127.0.0.1:45781
+1528899165952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oYG5tVX7tltJ"
+1528899170712	Marionette	INFO	Listening on port 33939
+1528899170779	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528967951488	geckodriver	INFO	geckodriver 0.19.1
+1528967951608	geckodriver	INFO	Listening on 127.0.0.1:34521
+1528967953155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.z8RYNVmMYBy0"
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1528967973199	Marionette	INFO	Listening on port 36833
+1528967973501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528967978995	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 6102, Chrome_ChildThread] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6102, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6102, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528968335015	geckodriver	INFO	geckodriver 0.19.1
+1528968335023	geckodriver	INFO	Listening on 127.0.0.1:45149
+1528968336454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4SqS1nJxNxZ2"
+1528968341388	Marionette	INFO	Listening on port 32935
+1528968341481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528968342256	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 6539, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6539, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528968501174	geckodriver	INFO	geckodriver 0.19.1
+1528968501180	geckodriver	INFO	Listening on 127.0.0.1:38351
+1528968502636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.N0QovrRXj9El"
+1528968507440	Marionette	INFO	Listening on port 45025
+1528968507473	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 89: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Child 6847, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6847, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528969710272	geckodriver	INFO	geckodriver 0.19.1
+1528969710280	geckodriver	INFO	Listening on 127.0.0.1:59701
+1528969711716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.1UW1ohG5iuZA"
+1528969717015	Marionette	INFO	Listening on port 39099
+1528969717052	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528969721995	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 7257, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7257, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528969807106	geckodriver	INFO	geckodriver 0.19.1
+1528969807114	geckodriver	INFO	Listening on 127.0.0.1:42575
+1528969808541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SrHxSYf0tSbW"
+1528969813468	Marionette	INFO	Listening on port 38723
+1528969813578	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7450, Chrome_ChildThread] WARNING: pipe error (22): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7450, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528970022856	geckodriver	INFO	geckodriver 0.19.1
+1528970022864	geckodriver	INFO	Listening on 127.0.0.1:60999
+1528970024281	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dsqsbvrMjg9l"
+1528970029345	Marionette	INFO	Listening on port 46785
+1528970029413	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528970079318	geckodriver	INFO	geckodriver 0.19.1
+1528970079325	geckodriver	INFO	Listening on 127.0.0.1:59429
+1528970080780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wgQHuJsOjg0i"
+1528970085045	Marionette	INFO	Listening on port 36607
+1528970085105	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528970354885	geckodriver	INFO	geckodriver 0.19.1
+1528970354893	geckodriver	INFO	Listening on 127.0.0.1:51725
+1528970356351	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pF61p3M24k45"
+1528970361461	Marionette	INFO	Listening on port 44931
+1528970361483	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528970365421	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 8057, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8057, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1528970381753	geckodriver	INFO	geckodriver 0.19.1
+1528970381761	geckodriver	INFO	Listening on 127.0.0.1:50087
+1528970383250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wIr5oq5aEAc0"
+1528970388016	Marionette	INFO	Listening on port 42613
+1528970388092	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8238, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8238, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528970489269	geckodriver	INFO	geckodriver 0.19.1
+1528970489276	geckodriver	INFO	Listening on 127.0.0.1:48477
+1528970490734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IAw3wxQWoGNK"
+1528970495506	Marionette	INFO	Listening on port 39397
+1528970495566	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8434, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8434, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528970587269	geckodriver	INFO	geckodriver 0.19.1
+1528970587277	geckodriver	INFO	Listening on 127.0.0.1:42185
+1528970588729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.embF390mFbSt"
+1528970593390	Marionette	INFO	Listening on port 43873
+1528970593464	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8619, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8619, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528971358028	geckodriver	INFO	geckodriver 0.19.1
+1528971358036	geckodriver	INFO	Listening on 127.0.0.1:33303
+1528971359453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LFBG12Hz0uYz"
+1528971364135	Marionette	INFO	Listening on port 38589
+1528971364201	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8911, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8911, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528971541583	geckodriver	INFO	geckodriver 0.19.1
+1528971541589	geckodriver	INFO	Listening on 127.0.0.1:58345
+1528971543034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3pc12TA6SlkW"
+1528971547674	Marionette	INFO	Listening on port 37751
+1528971547759	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9110, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9110, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528971602217	geckodriver	INFO	geckodriver 0.19.1
+1528971602225	geckodriver	INFO	Listening on 127.0.0.1:38903
+1528971603652	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tjCxNtA4c4Ip"
+1528971608258	Marionette	INFO	Listening on port 42111
+1528971608284	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9297, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9297, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528971918035	geckodriver	INFO	geckodriver 0.19.1
+1528971918043	geckodriver	INFO	Listening on 127.0.0.1:53105
+1528971919479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.32v6Ee6YOR2Q"
+1528971924335	Marionette	INFO	Listening on port 34785
+1528971924409	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9512, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9512, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528972171623	geckodriver	INFO	geckodriver 0.19.1
+1528972171631	geckodriver	INFO	Listening on 127.0.0.1:51941
+1528972173056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RraOO5MLFU8w"
+1528972178248	Marionette	INFO	Listening on port 33415
+1528972178301	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528972201084	geckodriver	INFO	geckodriver 0.19.1
+1528972201091	geckodriver	INFO	Listening on 127.0.0.1:32807
+1528972202516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9LVySrzCyfKu"
+1528972207154	Marionette	INFO	Listening on port 39685
+1528972207243	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9892, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9892, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528972597322	geckodriver	INFO	geckodriver 0.19.1
+1528972597327	geckodriver	INFO	Listening on 127.0.0.1:54325
+1528972598755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.84ubJPVxPo8N"
+1528972603437	Marionette	INFO	Listening on port 38821
+1528972603482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528972604768	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528972783338	geckodriver	INFO	geckodriver 0.19.1
+1528972783346	geckodriver	INFO	Listening on 127.0.0.1:47693
+1528972784761	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HzwUAbZ7AyTd"
+1528972790529	Marionette	INFO	Listening on port 35727
+1528972790608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528972793157	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 10338, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10338, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528973347369	geckodriver	INFO	geckodriver 0.19.1
+1528973347377	geckodriver	INFO	Listening on 127.0.0.1:57693
+1528973348888	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uVMIL8vCGsDE"
+1528973356667	Marionette	INFO	Listening on port 45863
+1528973356729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973359770	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 10598, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10598, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528973456132	geckodriver	INFO	geckodriver 0.19.1
+1528973456140	geckodriver	INFO	Listening on 127.0.0.1:51769
+1528973457572	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0iijrB3EAWX4"
+1528973461890	Marionette	INFO	Listening on port 41667
+1528973461996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973466490	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 10798, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10798, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528973637985	geckodriver	INFO	geckodriver 0.19.1
+1528973637992	geckodriver	INFO	Listening on 127.0.0.1:58271
+1528973639427	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.633csGI0jVRL"
+1528973643736	Marionette	INFO	Listening on port 44581
+1528973643764	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973648041	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 11002, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11002, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528973670724	geckodriver	INFO	geckodriver 0.19.1
+1528973670733	geckodriver	INFO	Listening on 127.0.0.1:60463
+1528973672168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.hsHzTBEekZ1b"
+1528973676476	Marionette	INFO	Listening on port 44211
+1528973676497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973683839	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 11184, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11184, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528974545157	geckodriver	INFO	geckodriver 0.19.1
+1528974545165	geckodriver	INFO	Listening on 127.0.0.1:51383
+1528974546600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nYKNMqFAjJV7"
+1528974551671	Marionette	INFO	Listening on port 35873
+1528974551728	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11469, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11469, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528974565773	geckodriver	INFO	geckodriver 0.19.1
+1528974565781	geckodriver	INFO	Listening on 127.0.0.1:55141
+1528974567219	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nSSvWzW2mVw6"
+1528974572930	Marionette	INFO	Listening on port 46431
+1528974572953	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11649, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11649, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528974708152	geckodriver	INFO	geckodriver 0.19.1
+1528974708158	geckodriver	INFO	Listening on 127.0.0.1:41463
+1528974709585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6t5EAUEZ00Za"
+1528974714634	Marionette	INFO	Listening on port 33015
+1528974714716	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11843, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11843, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528976468451	geckodriver	INFO	geckodriver 0.19.1
+1528976468459	geckodriver	INFO	Listening on 127.0.0.1:49487
+1528976469884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IrhhV5PvMUAk"
+1528976474866	Marionette	INFO	Listening on port 39813
+1528976474918	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12238, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12238, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528976494288	geckodriver	INFO	geckodriver 0.19.1
+1528976494296	geckodriver	INFO	Listening on 127.0.0.1:54601
+1528976495745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.frcu16OfdZ76"
+1528976499970	Marionette	INFO	Listening on port 43111
+1528976500068	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12417, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12417, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528976512705	geckodriver	INFO	geckodriver 0.19.1
+1528976512713	geckodriver	INFO	Listening on 127.0.0.1:58703
+1528976514172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ljel5doMw425"
+1528976521620	Marionette	INFO	Listening on port 41669
+1528976521711	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12593, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528976539703	geckodriver	INFO	geckodriver 0.19.1
+1528976539711	geckodriver	INFO	Listening on 127.0.0.1:40193
+1528976541153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MB6L2hz7bQdo"
+1528976545866	Marionette	INFO	Listening on port 32815
+1528976545900	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528976551635	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 12775, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12775, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528977395067	geckodriver	INFO	geckodriver 0.19.1
+1528977395075	geckodriver	INFO	Listening on 127.0.0.1:56617
+1528977396528	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pcVsW6Vi8QdW"
+1528977403624	Marionette	INFO	Listening on port 33649
+1528977403677	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528977403807	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 13072, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13072, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528978096808	geckodriver	INFO	geckodriver 0.19.1
+1528978096818	geckodriver	INFO	Listening on 127.0.0.1:45469
+1528978098236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wNQTqEx9IGZX"
+1528978103251	Marionette	INFO	Listening on port 46655
+1528978103283	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528978103428	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 13538, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13538, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528978311222	geckodriver	INFO	geckodriver 0.19.1
+1528978311229	geckodriver	INFO	Listening on 127.0.0.1:48919
+1528978312650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4vOEbwae8tEC"
+1528978317081	Marionette	INFO	Listening on port 36561
+1528978317178	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528978317313	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 13840, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13840, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528978515214	geckodriver	INFO	geckodriver 0.19.1
+1528978515221	geckodriver	INFO	Listening on 127.0.0.1:41729
+1528978516669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5OyaSy0P0vP4"
+1528978522711	Marionette	INFO	Listening on port 36595
+1528978522818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528978523345	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 14054, Chrome_ChildThread] WARNING: pipe error (37): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14054, Chrome_ChildThread] WARNING: pipe error (22): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14054, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528978559163	geckodriver	INFO	geckodriver 0.19.1
+1528978559170	geckodriver	INFO	Listening on 127.0.0.1:38927
+1528978560600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.j3heMrzLg4yV"
+1528978565633	Marionette	INFO	Listening on port 46293
+1528978565727	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14235, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14235, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1528978637429	geckodriver	INFO	geckodriver 0.19.1
+1528978637437	geckodriver	INFO	Listening on 127.0.0.1:59511
+1528978638883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.w4SSYI4JVH21"
+1528978643397	Marionette	INFO	Listening on port 33383
+1528978643420	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528978649541	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528978730041	geckodriver	INFO	geckodriver 0.19.1
+1528978730048	geckodriver	INFO	Listening on 127.0.0.1:54069
+1528978731470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.khYppUjUOACe"
+1528978736122	Marionette	INFO	Listening on port 41833
+1528978736206	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14626, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14626, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529050060695	geckodriver	INFO	geckodriver 0.19.1
+1529050060788	geckodriver	INFO	Listening on 127.0.0.1:58757
+1529050062176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ff9QkUAn8Euu"
+1529050072932	Marionette	INFO	Listening on port 42935
+1529050073041	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4219, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529050120563	geckodriver	INFO	geckodriver 0.19.1
+1529050120571	geckodriver	INFO	Listening on 127.0.0.1:33007
+1529050122026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qRYFxraOpxK5"
+1529050139421	Marionette	INFO	Listening on port 33633
+1529050139509	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 89: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1529050196693	geckodriver	INFO	geckodriver 0.19.1
+1529050196700	geckodriver	INFO	Listening on 127.0.0.1:58487
+1529050198151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TGSStiTSSLxN"
+1529050208452	Marionette	INFO	Listening on port 36133
+1529050208509	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 89: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Child 5060, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5060, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529050309797	geckodriver	INFO	geckodriver 0.19.1
+1529050309805	geckodriver	INFO	Listening on 127.0.0.1:45347
+1529050311267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xqgs8p5nvt4O"
+1529050318141	Marionette	INFO	Listening on port 38093
+1529050318221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 89: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Child 5491, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5491, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529050363355	geckodriver	INFO	geckodriver 0.19.1
+1529050363362	geckodriver	INFO	Listening on 127.0.0.1:44559
+1529050364777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ob0uOJ300lS3"
+1529050369501	Marionette	INFO	Listening on port 40985
+1529050369605	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 89: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Child 5688, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5688, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529050560733	geckodriver	INFO	geckodriver 0.19.1
+1529050560741	geckodriver	INFO	Listening on 127.0.0.1:58843
+1529050562167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5weHV4Uwkr4e"
+1529050566908	Marionette	INFO	Listening on port 43107
+1529050566994	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 89: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Child 5914, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529054096000	geckodriver	INFO	geckodriver 0.19.1
+1529054096006	geckodriver	INFO	Listening on 127.0.0.1:40049
+1529054097424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CVmbdFej0dE4"
+1529054101696	Marionette	INFO	Listening on port 45533
+1529054101749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529054101915	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 7178, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7178, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529054334250	geckodriver	INFO	geckodriver 0.19.1
+1529054334257	geckodriver	INFO	Listening on 127.0.0.1:53883
+1529054335684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.02zOF79HMGRg"
+1529054340010	Marionette	INFO	Listening on port 42881
+1529054340121	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7590, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529054555014	geckodriver	INFO	geckodriver 0.19.1
+1529054555020	geckodriver	INFO	Listening on 127.0.0.1:44391
+1529054556440	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7g9gU8gPVfru"
+1529054561426	Marionette	INFO	Listening on port 42531
+1529054561483	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7931, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7931, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529056280126	geckodriver	INFO	geckodriver 0.19.1
+1529056280133	geckodriver	INFO	Listening on 127.0.0.1:47127
+1529056281561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TL3oOR3SYkg2"
+1529056288132	Marionette	INFO	Listening on port 41265
+1529056288197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529056293180	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1529056687947	geckodriver	INFO	geckodriver 0.19.1
+1529056687954	geckodriver	INFO	Listening on 127.0.0.1:37003
+1529056689392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YTp5ZCu7cT8O"
+1529056695156	Marionette	INFO	Listening on port 40033
+1529056695242	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8601, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8601, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529056916960	geckodriver	INFO	geckodriver 0.19.1
+1529056916966	geckodriver	INFO	Listening on 127.0.0.1:54469
+1529056918384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zq7pyeyssVEi"
+1529056923031	Marionette	INFO	Listening on port 42697
+1529056923110	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529056930138	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 9006, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9006, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529056961569	geckodriver	INFO	geckodriver 0.19.1
+1529056961575	geckodriver	INFO	Listening on 127.0.0.1:42005
+1529056963014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5hDvc39BuLZE"
+1529056967632	Marionette	INFO	Listening on port 33967
+1529056967648	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9189, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9189, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529057245429	geckodriver	INFO	geckodriver 0.19.1
+1529057245435	geckodriver	INFO	Listening on 127.0.0.1:40615
+1529057246872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nfHw19b403KL"
+1529057251587	Marionette	INFO	Listening on port 42039
+1529057251601	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529057256640	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 9417, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9417, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529057578773	geckodriver	INFO	geckodriver 0.19.1
+1529057578780	geckodriver	INFO	Listening on 127.0.0.1:50021
+1529057580204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.hEWW4o4VT8Ve"
+1529057584666	Marionette	INFO	Listening on port 41815
+1529057584744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529057584890	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 9640, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9640, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529057592996	geckodriver	INFO	geckodriver 0.19.1
+1529057593003	geckodriver	INFO	Listening on 127.0.0.1:48317
+1529057594425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ajJ08d2pqmvc"
+1529057598719	Marionette	INFO	Listening on port 33319
+1529057598763	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529057602726	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1529057605291	geckodriver	INFO	geckodriver 0.19.1
+1529057605297	geckodriver	INFO	Listening on 127.0.0.1:53247
+1529057606712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Wtdz6vdWyp8w"
+1529057612796	Marionette	INFO	Listening on port 37709
+1529057612857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529057617836	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 9981, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529057633583	geckodriver	INFO	geckodriver 0.19.1
+1529057633589	geckodriver	INFO	Listening on 127.0.0.1:48579
+1529057635009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4JqzfjRHBfIw"
+1529057639592	Marionette	INFO	Listening on port 34419
+1529057639642	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529057640540	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 10159, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10159, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529057683154	geckodriver	INFO	geckodriver 0.19.1
+1529057683160	geckodriver	INFO	Listening on 127.0.0.1:51417
+1529057684612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0wqHFqfoOKF3"
+1529057689210	Marionette	INFO	Listening on port 39663
+1529057689248	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10346, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10346, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529057713200	geckodriver	INFO	geckodriver 0.19.1
+1529057713207	geckodriver	INFO	Listening on 127.0.0.1:49301
+1529057714618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FqnXXd3QXrIV"
+1529057719444	Marionette	INFO	Listening on port 41893
+1529057719548	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529057721695	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 10522, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10522, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529057979628	geckodriver	INFO	geckodriver 0.19.1
+1529057979633	geckodriver	INFO	Listening on 127.0.0.1:52679
+1529057981051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ubyEAoqGSsdQ"
+1529057985725	Marionette	INFO	Listening on port 33217
+1529057985793	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529057987785	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 10731, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10731, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529058908566	geckodriver	INFO	geckodriver 0.19.1
+1529058908572	geckodriver	INFO	Listening on 127.0.0.1:47169
+1529058909991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wZZ7tjR6X4MN"
+1529058914283	Marionette	INFO	Listening on port 43923
+1529058914324	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529058915592	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1529058963995	geckodriver	INFO	geckodriver 0.19.1
+1529058964001	geckodriver	INFO	Listening on 127.0.0.1:59227
+1529058965437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.V5DHfbc89umG"
+1529058969786	Marionette	INFO	Listening on port 37533
+1529058969863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529058971660	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1529058999356	geckodriver	INFO	geckodriver 0.19.1
+1529058999363	geckodriver	INFO	Listening on 127.0.0.1:58607
+1529059000794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qoMdflZfa7We"
+1529059005190	Marionette	INFO	Listening on port 32947
+1529059005222	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529059009072	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 11533, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11533, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059297262	geckodriver	INFO	geckodriver 0.19.1
+1529059297266	geckodriver	INFO	Listening on 127.0.0.1:53349
+1529059298700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.f7t6thRn2E13"
+1529059306388	Marionette	INFO	Listening on port 34303
+1529059306442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529059307625	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 11864, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11864, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059450845	geckodriver	INFO	geckodriver 0.19.1
+1529059450852	geckodriver	INFO	Listening on 127.0.0.1:51125
+1529059452268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XGu9ErTHhJJs"
+1529059457202	Marionette	INFO	Listening on port 44241
+1529059457302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529059458113	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 12058, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12058, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059495287	geckodriver	INFO	geckodriver 0.19.1
+1529059495292	geckodriver	INFO	Listening on 127.0.0.1:43243
+1529059496714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TAqVPjMN4aUG"
+1529059501305	Marionette	INFO	Listening on port 35305
+1529059501340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529059502217	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Child 12236, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12236, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059523768	geckodriver	INFO	geckodriver 0.19.1
+1529059523775	geckodriver	INFO	Listening on 127.0.0.1:52293
+1529059525203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kUJJWJPgExn1"
+1529059529446	Marionette	INFO	Listening on port 39903
+1529059529528	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12415, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12415, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059615562	geckodriver	INFO	geckodriver 0.19.1
+1529059615567	geckodriver	INFO	Listening on 127.0.0.1:38789
+1529059616985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZQrXMjONQVDV"
+1529059621310	Marionette	INFO	Listening on port 44471
+1529059621413	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12607, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12607, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059651999	geckodriver	INFO	geckodriver 0.19.1
+1529059652005	geckodriver	INFO	Listening on 127.0.0.1:55111
+1529059653425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IWdeZKWAZX3S"
+1529059657963	Marionette	INFO	Listening on port 42705
+1529059658049	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12796, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12796, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059695315	geckodriver	INFO	geckodriver 0.19.1
+1529059695321	geckodriver	INFO	Listening on 127.0.0.1:40027
+1529059696756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xIbjA716m8r9"
+1529059702427	Marionette	INFO	Listening on port 41347
+1529059702494	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12983, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12983, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529059934527	geckodriver	INFO	geckodriver 0.19.1
+1529059934534	geckodriver	INFO	Listening on 127.0.0.1:55031
+1529059935976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VA1f7vyM1W7K"
+1529059941010	Marionette	INFO	Listening on port 37641
+1529059941104	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13216, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13216, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529060206660	geckodriver	INFO	geckodriver 0.19.1
+1529060206666	geckodriver	INFO	Listening on 127.0.0.1:50093
+1529060208088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DRb0XFuXcGb8"
+1529060212429	Marionette	INFO	Listening on port 43375
+1529060212514	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13437, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13437, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529060236382	geckodriver	INFO	geckodriver 0.19.1
+1529060236389	geckodriver	INFO	Listening on 127.0.0.1:45403
+1529060237854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.syJXu7fXULGd"
+1529060244878	Marionette	INFO	Listening on port 37477
+1529060244911	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13618, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13618, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529060293716	geckodriver	INFO	geckodriver 0.19.1
+1529060293722	geckodriver	INFO	Listening on 127.0.0.1:60211
+1529060295147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.UfuHizMFfxOy"
+1529060299744	Marionette	INFO	Listening on port 34727
+1529060299792	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13810, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13810, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

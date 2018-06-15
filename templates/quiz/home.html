@@ -7,15 +7,9 @@
     <h1>Question</h1>
     <form method="POST">
       {{ add_form }}
-      <p><input type="submit" class="btn btn-primary" value="Submit"></p>
+      <p><input type="submit" class="btn btn-primary" value="Add Question"></p>
       {% csrf_token %}
     </form>
     <a href="{% url 'quiz:start' %}">Start Quiz!</a>
-
-    <table id="id_list_table">
-      <tr>
-        <td>{{ new_question }}</td>
-      </tr>
-    </table>
   </body>
 </html>

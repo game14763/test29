@@ -7,6 +7,32 @@
   <body>
     <h1>Start Quiz</h1>
     <a href="{% url 'index' %}">Add question</a>
-    
+
+    <p><h2>Begin</h2></p>
+    {% if quiz_add %}
+      {% for quiz in quiz_add %}
+        <n id='q{{quiz.id}}'>{{quiz.id}}. {{ quiz.question }}</n>
+        <form method="POST">
+          <n>Yes:</n><input type="checkbox" name="yesbox" id='y{{quiz.id}}'>
+          <n>No:</n><input type="checkbox" name="nobox" id='n{{quiz.id}}'>
+          <input type="submit" name="answer" id="a{{quiz.id}}" value="Answer">
+          <input type="hidden" name="q_id" value="{{quiz.question}}">
+          {% csrf_token %}
+        </form>
+        {% if quiz.question == quiz_id %}
+          {% if quiz.yes_answer == your_answer %}
+            <p id='c{{quiz.id}}'>Correct</p>
+          {% elif quiz.no_answer == your_answer %}
+            <p id='i{{quiz.id}}'>Incorrect</p>
+          {% else %}
+            <p id='d{{quiz.id}}'>Choose an answer</p>
+          {% endif %}
+        {% else %}
+          <p>Click Answer to view result</p>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <p>NO RECORD FOUND</p>
+    {% endif %}
   </body>
 </html>

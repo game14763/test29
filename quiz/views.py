@@ -1,14 +1,28 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from . import forms
+from quiz.forms import QuizForm
+from quiz.models import Quiz
 
 def index(request):
-  add_form = forms.QuizForm()
-  new_question = ''
+  add_form = QuizForm()
+  new_form = ''
   if request.method == 'POST':
-    new_question = forms.QuizForm(request.POST)
-    print("Question Add")
-  return render(request, 'quiz/home.html', {'add_form':add_form, 'new_question':new_question, })
+    new_form = QuizForm(request.POST)
+    if new_form.is_valid():
+        new_form.save(commit=True)
+    else:
+        print('ERROR FORM INVALID')
+  return render(request, 'quiz/home.html', {'add_form':add_form})
 
 def start(request):
-    return render(request, 'quiz/start.html')
+    quiz_list = Quiz.objects.all()
+    your_answer = ''
+    quiz_id = ''
+    if request.method =="POST":
+        quiz_id = request.POST.get('q_id')
+        if request.POST.get('yesbox', 'off') == 'on':
+            your_answer = True
+        elif request.POST.get('nobox', 'off') == 'on':
+            your_answer = False
+    quiz_dict = {'quiz_add':quiz_list, 'your_answer':your_answer, 'quiz_id':quiz_id}
+    return render(request, 'quiz/start.html',context=quiz_dict)
