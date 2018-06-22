@@ -1591,3 +1591,10 @@ _onJSONObjectReady/<()@transport.js:500
 1529060299792	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 13810, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 13810, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529138440166	geckodriver	INFO	geckodriver 0.19.1
+1529138440249	geckodriver	INFO	Listening on 127.0.0.1:41077
+1529138441631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Q9fPGJYiBoET"
+1529138452353	Marionette	INFO	Listening on port 43565
+1529138452440	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5125, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5125, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
